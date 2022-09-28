@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Main from './Main';
+import Header from './components/Header/Header';
+// import About from './components/About/About';
+import Wrapper from './components/Wrapper/Wrap'
+import Mobile from './components/Mobiles/Mobile';
 
 function App() {
   return (
     <div className="App">
-      <Main />
-      <header className="App-header">
+      <Header />
+      <Wrapper />
+      <Mobile />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Raghul <strong>React</strong> Tutorial.
@@ -19,9 +24,9 @@ function App() {
         >
           Learn React
         </a>
-        
-      </header>
-      
+
+      </header> */}
+
     </div>
   );
 }
